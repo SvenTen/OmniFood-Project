@@ -122,6 +122,10 @@ strong {
   display: grid;
   gap: 9.6rem 6.4rem;
 }
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -131,6 +135,20 @@ strong {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list-item {
+  font-size: 1.8rem;
+}
+.icon {
+  color: #cf711f;
+  height: 2.4rem;
+  width: 2.4rem;
+}
 /* HELPER CLASSES */
 .grid--center-v {
   align-items: center;
@@ -139,7 +157,7 @@ strong {
   margin-right: 1.6rem !important;
 }
 .margin-bottom-md {
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem !important;
 }
 .center-text {
   text-align: center;
