@@ -30,8 +30,10 @@ Paragraph default: 1.6
 - Tints
 #fdf2e9
 #fae5d3
+#eb984e
 - Shades
 #cf711f
+#45260a
 - Greys
 #555
 #333
@@ -40,6 +42,7 @@ Paragraph default: 1.6
 
 --- 03 SHADOWS
 box-shadow: inset 0 0 0 3
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 7.5%);
 
 --- 04 BORDER-RADIUS
 default: 9px
@@ -71,6 +74,10 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem #e67d2283;
 }
 body {
   font-family: "rubik", sans-serif;
@@ -177,6 +184,7 @@ strong {
   color: #cf711f;
   border-bottom: 1px solid transparent;
 }
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -186,9 +194,11 @@ strong {
   font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
-
+  border: none;
   transition: all 0.3s;
+  cursor: pointer;
 }
+
 .btn--full:link,
 .btn--full:visited {
   background-color: #e67e22;
@@ -207,4 +217,14 @@ strong {
 .btn--outline:active {
   background-color: #fdf2e9;
   box-shadow: inset 0 0 0 3px #fff;
+}
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: flex-end;
+  padding: 1.2rem;
+}
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
