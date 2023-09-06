@@ -38,7 +38,6 @@
 .main-nav-link:active {
   color: #cf711f;
 }
-
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
@@ -46,15 +45,13 @@
   color: #fff;
   background-color: #e67e22;
 }
-
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
 
 /* MOBILE */
-/* <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon> */
+
 .btn-mobile-nav {
   border: none;
   background: none;
@@ -75,11 +72,11 @@
 /* *********************************** */
 /* HERO SECTION */
 /* *********************************** */
+
 .section-hero {
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
 }
-
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -89,17 +86,14 @@
   column-gap: 9.6rem;
   align-items: center;
 }
-
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
-
 .hero-img {
   width: 100%;
 }
-
 .delivered-meals {
   display: flex;
   gap: 3.2rem;
@@ -128,6 +122,7 @@
 /* *********************************** */
 /* FEATURED IN SECTION*/
 /* *********************************** */
+
 .section-featured {
   padding: 4.8rem 0 3.2rem 0;
 }
@@ -150,9 +145,11 @@
   filter: brightness(0);
   opacity: 50%;
 }
+
 /* *********************************** */
 /* HOW IT WORKS SECTION*/
 /* *********************************** */
+
 .section-how {
   padding: 9.6rem 0;
 }
@@ -201,6 +198,7 @@
 /* *********************************** */
 /* MEALS SECTION */
 /* *********************************** */
+
 .section-meals {
   padding: 9.6rem 0;
 }
@@ -267,9 +265,11 @@
   text-align: center;
   font-size: 1.8rem;
 }
+
 /* *********************************** */
 /* TESTIMONIALS SECTION*/
 /* *********************************** */
+
 .section-testimonials {
   background-color: #fdf2e9;
   display: grid;
@@ -316,9 +316,11 @@
 .gallery-img:hover {
   transform: scale(1.1);
 }
+
 /* *********************************** */
 /* PRICING SECTION */
 /* *********************************** */
+
 .section-pricing {
   padding: 9.6rem 0;
 }
@@ -409,6 +411,7 @@
 /* *********************************** */
 /* CTA SECTION */
 /* *********************************** */
+
 .section-cta {
   padding: 4.8rem 0 12.8rem 0;
 }
@@ -463,7 +466,6 @@
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-
 .cta-form input::placeholder {
   color: #aaa;
 }
@@ -471,9 +473,11 @@
   outline: none;
   box-shadow: 0 0 0 0.8rem #fdf2e97a;
 }
+
 /* *********************************** */
 /* FOOTER */
 /* *********************************** */
+
 .footer {
   padding: 12.8rem 0;
   border-top: 1px solid #eee;
@@ -481,7 +485,6 @@
 .grid--footer {
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
-
 .logo-col {
   display: flex;
   flex-direction: column;
