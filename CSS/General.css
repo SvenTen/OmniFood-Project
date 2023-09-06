@@ -70,6 +70,7 @@ Helper class: 1.6rem
 /* *********************************** */
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 * {
   padding: 0;
@@ -85,6 +86,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 strong {
   font-weight: 500;
