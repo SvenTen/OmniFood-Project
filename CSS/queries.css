@@ -125,7 +125,7 @@
     visibility: hidden;
     transform: translateX(100%);
   }
-  .nav-open.main-nav {
+  .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
