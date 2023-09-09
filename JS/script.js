@@ -22,8 +22,7 @@ const obs = new IntersectionObserver(
     console.log(ent);
     if (ent.isIntersecting === false) {
       document.body.classList.add("sticky");
-    }
-    if (ent.isIntersecting === true) {
+    } else {
       document.body.classList.remove("sticky");
     }
   },
